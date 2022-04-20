@@ -1,6 +1,7 @@
 # Electric_Production_Forecasting
 
-This project is an univariate analysis for an electric production series. The objective is to predict 
+This project is a univariate analysis of an electric production series. The objective is to predict the electric production given prior observations. 
+Several models such as ARIMA, Prophet, Exponential Smoothing or Theta method have been used to measure its performance.
 
 Requirements:
 
@@ -24,18 +25,23 @@ Requirements:
 
 
 ### FIRST PART: 
-Time series analysis, checking stationarity, transforming into stationary.
-
-
+After some visualizations, the components of the series are analyzed and the stationarity checked. As the result of the previous analysis, 
+the series is transformed into stationary.
 
 ### SECOND PART | Arima model and Prophet: 
-Arima model 
+An autoregressive integrated moving average (ARIMA) model is used to predict future points in time series data. In this project, the optimal order of the model is identified using the auto-Arima process (pmdarima library). 
 
 ![imagen](https://user-images.githubusercontent.com/20369543/159540003-025f5e2f-bdd7-4ad9-bdf0-86d9e36a09a3.png)
 
 
 
-Prophet.
+
+
+Prophet is a forecasting package in both R and Python that was developed by Facebook’s data science research team. 
+
+
+
+
 
 ![imagen](https://user-images.githubusercontent.com/20369543/159540206-f14bc623-6e1e-41b4-8b97-fa5aadec9984.png)
 
